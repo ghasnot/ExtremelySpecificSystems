@@ -1,2 +1,22 @@
 # ExtremelySpecificSystems
-Extremely Specific Systems that can help a couple of people with their specific things
+> An chotic collection of extremely specific systems that nobody asked for, but everybody can use it.
+
+## About
+
+**ExtremelySpecificSystems** is a C# console aplication that agroups a bunch of random and highly specific stuff in one place.
+
+## Sistems Created
+- *Lenght Measurements to Smots*
+- *Random Game Idea Generator*
+
+## Tools
+
+- C#
+- .NET (Console Application)
+
+## Project Structure
+
+ExtremelySpecificSystems/
+│
+├── ExtremelySpecificSystems.cs              # Ponto de entrada
+└── README.md
