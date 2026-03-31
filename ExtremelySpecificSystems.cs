@@ -39,7 +39,7 @@ namespace extremamenteEspecifico
 
                 case 1:
                     Console.Clear();
-                    Console.WriteLine("Welcome to the Extremely Especific System");
+                    Console.WriteLine("Welcome to the Extremely Specific System");
                     Console.WriteLine("Made by Bruno Paiva");
                     Console.WriteLine("");
                     option1();
@@ -47,7 +47,7 @@ namespace extremamenteEspecifico
 
                 case 2:
                     Console.Clear();
-                    Console.WriteLine("Welcome to the Extremely Especific System");
+                    Console.WriteLine("Welcome to the Extremely Specific System");
                     Console.WriteLine("Made by Bruno Paiva");
                     Console.WriteLine("");
                     option2();
@@ -77,7 +77,7 @@ namespace extremamenteEspecifico
             {
                 default:
                     Console.Clear();
-                    Console.WriteLine("Welcome to the Extremely Especific System");
+                    Console.WriteLine("Welcome to the Extremely Specific System");
                     Console.WriteLine("Made by Bruno Paiva");
                     Console.WriteLine("");
                     option1();
@@ -142,7 +142,7 @@ namespace extremamenteEspecifico
 
                 case 3:
                     Console.Clear();
-                    Console.WriteLine("Welcome to the Extremely Especific System");
+                    Console.WriteLine("Welcome to the Extremely Specific System");
                     Console.WriteLine("Made by Bruno Paiva");
                     Console.WriteLine("");
                     option1();
@@ -341,7 +341,7 @@ namespace extremamenteEspecifico
 
                 case 3:
                     Console.Clear();
-                    Console.WriteLine("Welcome to the Extremely Especific System");
+                    Console.WriteLine("Welcome to the Extremely Specific System");
                     Console.WriteLine("Made by Bruno Paiva");
                     Console.WriteLine("");
                     option2();
