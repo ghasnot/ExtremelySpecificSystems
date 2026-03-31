@@ -10,7 +10,7 @@ namespace extremamenteEspecifico
     {
         static void Main()
         {
-            Console.WriteLine("Welcome to the Extremely Especific System");
+            Console.WriteLine("Welcome to the Extremely Specific System");
             Console.WriteLine("Made by Bruno Paiva");
             Console.WriteLine("");
             Console.WriteLine("Options: " +
