@@ -160,7 +160,7 @@ namespace extremamenteEspecifico
         static void option2()
         {
             
-            Console.WriteLine("2 - Random Game Generator");
+            Console.WriteLine("2 - Random Game Idea Generator");
             Console.WriteLine("");
             Console.WriteLine("Do you need a cool idea for a new game but you’re struggling to think of anything interesting?");
             Console.WriteLine("");
