@@ -6,7 +6,7 @@
 **ExtremelySpecificSystems** is a C# console aplication that agroups a bunch of random and highly specific stuff in one place.
 
 ## Sistems Created
-- *Lenght Measurements to Smots*
+- *Length measurements to Smoot(s)*
 - *Random Game Idea Generator*
 
 ## Tools
