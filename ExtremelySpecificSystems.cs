@@ -16,7 +16,7 @@ namespace extremamenteEspecifico
             Console.WriteLine("Options: " +
                 "\n1 - Length measurements to Smoot(s) " +
                 "\n2 - Random Game Idea Generator " +
-                "\n2 - ??? " +
+                "\n3 - Random French Cuss Phrase Generator " +
                 "\n2 - ??? " +
                 "\n2 - ??? " +
                 "\n2 - ??? " +
@@ -52,6 +52,14 @@ namespace extremamenteEspecifico
                     Console.WriteLine("");
                     option2();
                     break;
+
+                case 3:
+                    Console.Clear();
+                    Console.WriteLine("Welcome to the Extremely Specific System");
+                    Console.WriteLine("Made by Bruno Paiva");
+                    Console.WriteLine("");
+                    option3();
+                    break;
             }
         }
 
@@ -59,8 +67,12 @@ namespace extremamenteEspecifico
         {
             float choice = 0;
             float result = 0;
-            Console.WriteLine("1 - Length measurements to Smoot");
+            
+            //Name
+            Console.WriteLine("1 - Length measurements to Smoot"); 
             Console.WriteLine("");
+            
+            //Description
             Console.WriteLine("The smoot is a humorous, non-standard unit of length created as part of an oath of the Lambda Chi Alpha fraternity at MIT by Oliver R. Smoot, who in October 1958 repeatedly lay down on the Harvard Bridge between Boston and Cambridge, Massachusetts, so that his fraternity brothers could use his height to measure the length of the bridge.\nAn Smoot meausures approximately 1,70m (5' 6'')");
             Console.WriteLine("");
 
@@ -159,10 +171,12 @@ namespace extremamenteEspecifico
 
         static void option2()
         {
-            
-            Console.WriteLine("2 - Random Game Idea Generator");
+            //Name
+            Console.WriteLine("2 - Random Game Idea Generator"); 
             Console.WriteLine("");
-            Console.WriteLine("Do you need a cool idea for a new game but you’re struggling to think of anything interesting?");
+
+            //Description
+            Console.WriteLine("Do you need a cool idea for a new game but you’re struggling to think of anything interesting?"); 
             Console.WriteLine("");
 
             Console.WriteLine("Press ENTER to Start");
@@ -200,7 +214,7 @@ namespace extremamenteEspecifico
                 case 5:
                     result_genre = "STRATEGY";
                     break;
-                
+
                 case 6:
                     result_genre = "ADVENTURE";
                     break;
@@ -355,5 +369,117 @@ namespace extremamenteEspecifico
             }
 
         }
+
+        static void option3()
+        {
+            //Name
+            Console.WriteLine("3 - Random French Cuss Phrase Generator"); 
+            Console.WriteLine("");
+
+            //Description
+            Console.WriteLine("Lighthearted text generation system designed to create humorous roasts that are entertaining while not being offensive in French."); 
+            Console.WriteLine("");
+
+            //Wait for the user to press enter
+            Console.WriteLine("Press ENTER to Start");
+            string option = Console.ReadLine();
+
+            //Variables
+            Random slur = new Random();
+            int slur1 = slur.Next(1, 12);
+            string result_slur = "";
+
+            switch (slur1)
+            {
+                case 1:
+                    result_slur = "Vai te faire cuire un œuf";
+                    break;
+
+                case 2:
+                    result_slur = "Je te chie dans le cou";
+                    break;
+
+                case 3:
+                    result_slur = "Moule à merde";
+                    break;
+
+                case 4:
+                    result_slur = "Ta mère est tellement petite que sa tête pue des pieds";
+                    break;
+
+                case 5:
+                    result_slur = "Pompe à chiasse";
+                    break;
+
+                case 6:
+                    result_slur = "Va te faire foutre";
+                    break;
+
+                case 7:
+                    result_slur = "Nique ta mère";
+                    break;
+
+                case 8:
+                    result_slur = "Peau de zob";
+                    break;
+
+                case 9:
+                    result_slur = "Fils de pute";
+                    break;
+
+                case 10:
+                    result_slur = "Couille-molle";
+                    break;
+
+                case 11:
+                    result_slur = "Espèce d’idiot";
+                    break;
+
+                case 12:
+                    result_slur = "Putain de bordel de merde";
+                    break;
+            }
+
+            Console.WriteLine($"Your french slur is: '{result_slur}'");
+
+
+            Console.WriteLine("");
+            Console.WriteLine("Wanna go back to the Main Menu? " +
+                "\n1 - Yes " +
+                "\n2 - No " +
+                "\n3 - Retry this option");
+
+            Console.Write("CHOOSE AN OPTION: ");
+            int escolha = int.Parse(Console.ReadLine());
+
+            switch (escolha)
+            {
+                case 1:
+                    Console.Clear();
+                    Main();
+                    break;
+
+                case 2:
+                    Console.Clear();
+                    break;
+
+                case 3:
+                    Console.Clear();
+                    Console.WriteLine("Welcome to the Extremely Specific System");
+                    Console.WriteLine("Made by Bruno Paiva");
+                    Console.WriteLine("");
+                    option3();
+                    break;
+
+                default:
+                    Console.Clear();
+                    Console.WriteLine("No option was selected / Option number is wrong");
+                    Console.WriteLine("System is turning off");
+                    break;
+            }
+        }
+
+
+
     }
 }
