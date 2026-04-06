@@ -8,6 +8,7 @@
 ## Sistems Created
 - *Length measurements to Smoot(s)*
 - *Random Game Idea Generator*
+- *Random Franch Cuss Phrase Generator*
 
 ## Tools
 
